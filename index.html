@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6HTWRixbGnOAKo3upt0asdPyQom0bmTXew&s" type="image/x-icon">
+
+</head>
+<style>
+    body {
+      background-image: url('b.png'); /* make sure to update the path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+<body >
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                </figure>
+
+                <div class="info-content">
+                    <div style="text-align: center; margin-top: 20px;">
+                        <h1 style="display: inline-flex; align-items: center;">
+                          <img src="dp.png" alt="Profile Image" style="height: 240px; width: 240px; vertical-align: middle; border-radius: 50%">
+                        
+                        </h1>
+                      </div>
+                      
+                      
+                    <h1 class="name" title="Ammal">REVANTH KUMAR </h1>
+                    <h1 class="name" title="Ammal">BELLAMKONDA </h1>
+                    <p class="title">Aspiring Software Engineer</p>
+                  
+                    <p class="title">Data Scientist</p>
+                    <p class="title">AI & ML Engineer</p>
+                    <p class="title">Full Stack Web Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:revanthkumarbellamkonda@gmail.com" class="contact-link">revanthkumarbellamkonda@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+6309771981" class="contact-link">+91 6309771981</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2005-06-10">June 10, 2005</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <a href="https://maps.app.goo.gl/TAuX4z3dCHfCUsej6" target="_blank">
+                            <address>Hyderabad, Telangana , India-500015</address>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Git Hub </p>
+                            <a href="https://github.com/Kumar-coder98" target="_blank">Click Here !!!</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">linkedin</p>
+                            <a href="https://www.linkedin.com/in/bellamkonda-revanth-kumar-79845226a/" target="_blank">Click Here !!!</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/Kumar-coder98" target="_blank" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/bellamkonda-revanth-kumar-79845226a/" target="_blank" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                  <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                  </li>
+                  <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                  </li>
+                 <!--- <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                  </li>
+                  <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Blog</button>
+                  </li>-->
+                </ul>
+              </nav>
+              
+
+            <article class="about active" data-page="about">
+               <br>
+               <br>
+                <header> 
+                    <h3 class="h2 article-title1" align="center">Welcome aboard — dive into my projects, and the person behind the pixels!</h3>
+                    <h2 class="h2 article-title">About me</h2>
+                     </header>
+
+                <section class="about-text">
+                    <p>I'm Bellamkonda Revanth Kumar, a Computer Science and Engineering (Honors) undergraduate, passionate about building intelligent, data-driven solutions that solve real-world problems.
+
+                        With a solid foundation in software development, data analytics, and AI/ML research, I enjoy exploring how data and technology can drive smarter decisions and transformative outcomes. I’ve worked on full stack projects and experimented with AI models, continually sharpening my ability to translate complex challenges into actionable insights and scalable applications.
+                        
+                        </p>
+                    <p>I’m deeply curious, always eager to learn new tools and techniques that push the boundaries of what’s possible — from developing efficient algorithms to visualizing meaningful data patterns. Whether it’s coding robust systems or extracting insights from data, I thrive in roles that let me create impact and keep learning.
+                        
+                        As I look forward to the next chapter in my journey, I’m excited to connect with forward-thinking teams and opportunities in software development, data science, machine learning, and analytics. 
+                        
+                        </p>
+                        <br>   
+                </section>
+                <h4 class="h2 article-title1" align="center">Let’s build something impactful together !!!</h4>
+<br>
+<br>
+                <section class="service">
+                    <h3 class="h3 service-title article-title">What I'm Interested in</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Data Analysis</h4>
+                                <p class="service-item-text">Collect & Analyse Raw Data and produce high-quality - efficient Data visualization models.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title" >AI & ML</h4>
+                                <p class="service-item-text" >Build Natural Learning Models that simplies the users tasks with the help of given inputs.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Software Development</h4>
+                                <p class="service-item-text">Building Softwares with the Core Principles and developing them in a effective and efficient way.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelors of Engineering in Computer Science and Engineering(Honors)</h4>
+                             <h4 class="h4 timeline-item-title">University College of Engineering-Osmania University</h4>
+                           
+                            <span>2026 - current Percentage - 86.3 %</span>
+                            <p class="timeline-text">Here I'm learning a wide range of topics that are essential to understanding both the theory and practical aspects of computing. This involves programming fundamentals, computer architecture, operating systems, databases, software engineering, problem solving, collaboration and communication soft skills.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">12th - MPC</h4>
+                            <h4 class="h4 timeline-item-title">Narayana Junior College</h4>
+                            <span>2022 - Percentage - 98.4 %</span>
+                            <p class="timeline-text">I have done my 12th grade in Mathematics,Physics and Chemistry at Narayana Junior College. I Gained the foundational Knowledge for my computer science journey with the mathematics and Problem solving skills.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">10th</h4>
+                            <h4 class="h4 timeline-item-title">Triveni School</h4>
+                            <span>2020 - Percentage - 100 %</span>
+                            <p class="timeline-text">In 10th grade under the SSC curriculum, I developed a strong foundation in subjects like Mathematics, Science, English, and Social Science, enhancing my analytical, problem-solving, and communication skills. I also learned valuable time-management and critical thinking abilities, preparing me for future academic and personal growth.</p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skill">
+                    <h3 class="skills-title article-title" >My Skills</h3>
+                  
+                    <ul class="skills-list">
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">1. Web Development</h5>
+                          <p style="color: white;">- (HTML, CSS, JS)</p>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">2. Databases</h5>
+                          <p style="color: white;">- PHP, SQL</p>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">3. Programming Languages</h5>
+                          <p style="color: white;">- C/C++, Java, Python</p>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">4. AI & ML</h5>
+                          <p style="color: white;">- NLP and Deep Learning using TensorFlow, Keras, Scikit-learn, OpenCV</p>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">5. Data Processing and Analytics</h5>
+                          <p style="color: white;">- Pandas, NumPy, Matplotlib, Seaborn</p>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">6. Data Structures and Algorithms (DSA)</h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  
+        </div>
+    </main>
+ <div style="color:#FFD700;">
+    <p align="right">Copyright (c) 2025 </p> 
+
+<!-- Local script -->
+<script src="script.js"></script>
+
+<!-- Ionicons for modern browsers -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<!-- Fallback for non-module browsers -->
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- Optional: Fallback for CDN failure (if you want to ensure local fallback) -->
+<script type="module">
+  if (!window.customElements) {
+    // Fallback to local version if needed
+    let script = document.createElement('script');
+    script.type = 'module';
+    script.src = './ionicons/ionicons.esm.js'; // Local fallback
+    document.head.appendChild(script);
+  }
+</script>
+
+</body>
+</html>
