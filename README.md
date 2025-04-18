@@ -1,4 +1,5 @@
-Revanth Kumar's Portfolio
+Revanth Kumar's Portfolio :
+
 Welcome to my personal portfolio! This portfolio showcases my work, skills, and projects as I pursue a degree in Computer Science and Engineering. It includes an interactive and visually appealing design built with modern web technologies, highlighting my journey as a software developer.
 
 🚀 Live Demo
