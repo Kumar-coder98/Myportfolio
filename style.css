@@ -882,3 +882,79 @@ article { display: none; }
 
     
 }
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+
+  .resume,
+  .about,
+  .page {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page.active {
+    display: block;
+    padding-top: 2rem;
+  }
+
+  .resume .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .resume .profile-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .resume .title {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .resume .content {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+
+  .resume .education,
+  .resume .section {
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .nav-link {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  .nav-link.active {
+    border-bottom: 2px solid #facc15;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .sidebar .info-content {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .sidebar .info-content .info-title {
+    font-size: 0.95rem;
+  }
+
+  .sidebar .info-content .info-description {
+    font-size: 0.85rem;
+  }
+}
