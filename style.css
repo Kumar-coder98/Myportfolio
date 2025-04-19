@@ -887,12 +887,13 @@ article { display: none; }
     padding: 1.5rem;
   }
 
+  .resume,
+  .about,
   .page {
     padding: 1rem;
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
-    display: none;
   }
 
   .page.active {
@@ -908,27 +909,27 @@ article { display: none; }
   }
 
   .resume .profile-card img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
+    margin-bottom: 1rem;
   }
 
   .resume .title {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.3rem;
     margin-top: 0.5rem;
   }
 
-  .resume .content,
-  .resume .section {
+  .resume .content {
     font-size: 1rem;
     line-height: 1.6;
     padding: 0 1rem;
-    margin-bottom: 1.5rem;
   }
 
-  .resume .education {
+  .resume .education,
+  .resume .section {
+    margin-bottom: 1.5rem;
     padding: 0 1rem;
   }
 
@@ -944,19 +945,43 @@ article { display: none; }
   .sidebar {
     width: 100%;
     padding: 1rem;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .sidebar .info-content {
     text-align: center;
     margin-top: 1rem;
+    width: 100%;
   }
 
   .sidebar .info-content .info-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .sidebar .info-content .info-description {
+    font-size: 0.85rem;
+  }
+
+  /* 🔥 Ensure contact info appears in mobile */
+  .sidebar .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar .contact-info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 0.9rem;
+  }
+
+  .sidebar .contact-info i {
+    margin-bottom: 0.3rem;
   }
 }
