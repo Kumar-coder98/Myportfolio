@@ -887,13 +887,12 @@ article { display: none; }
     padding: 1.5rem;
   }
 
-  .resume,
-  .about,
   .page {
     padding: 1rem;
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
+    display: none;
   }
 
   .page.active {
@@ -909,25 +908,27 @@ article { display: none; }
   }
 
   .resume .profile-card img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
+    border-radius: 50%;
   }
 
   .resume .title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-top: 0.5rem;
   }
 
-  .resume .content {
+  .resume .content,
+  .resume .section {
     font-size: 1rem;
     line-height: 1.6;
     padding: 0 1rem;
+    margin-bottom: 1.5rem;
   }
 
-  .resume .education,
-  .resume .section {
-    margin-bottom: 1.5rem;
+  .resume .education {
     padding: 0 1rem;
   }
 
@@ -943,6 +944,7 @@ article { display: none; }
   .sidebar {
     width: 100%;
     padding: 1rem;
+    box-sizing: border-box;
   }
 
   .sidebar .info-content {
@@ -951,10 +953,10 @@ article { display: none; }
   }
 
   .sidebar .info-content .info-title {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .sidebar .info-content .info-description {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
 }
